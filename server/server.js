@@ -21,7 +21,7 @@ io.on('connection',(socket)=>{
          io.emit('newMessage',{
              from:message.from,
              text:message.text,
-             createAt:new Date().getTime();
+             createAt:new Date().getTime()
          })
 
      })
